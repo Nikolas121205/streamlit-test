@@ -53,7 +53,7 @@ st.write("""
 ### Inserted map with HTML
 """)
 
-f=codecs.open("data/choropleth-spain.html", 'r')
+f=codecs.open("data/tableau.html", 'r')
 mapa = f.read()
 
 components.html(mapa,height=550,scrolling=True)

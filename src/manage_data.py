@@ -1,4 +1,3 @@
-from tkinter import E
 import pandas as pd
 import streamlit as st
 import os
